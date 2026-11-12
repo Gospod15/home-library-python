@@ -98,6 +98,10 @@ butDEL.pack(pady=10)
 def print_main_message():
     print("Hello from main branch!")
 
+def print_greetings():
+    print("Hello from new-feature branch!")
+
+
 load_books()
 win.mainloop()
 database.close()
