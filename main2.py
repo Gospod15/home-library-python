@@ -95,6 +95,9 @@ butADD.pack(pady=20, fill=X)
 butDEL = Button(left_frame, text='Видалити обрану книгу', command=delete_book)
 butDEL.pack(pady=10)
 
+def print_greetings():
+    print("Hello from new-feature branch!")
+
 load_books()
 win.mainloop()
 database.close()
